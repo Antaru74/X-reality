@@ -16,7 +16,7 @@ jobs:
       - name: Ekstrak source
         run: |
           mkdir -p src
-          unzip -q xreality_lsposed_source.zip -d src
+          unzip -q xreality_lsposed_source_1.zip -d src
 
       - uses: actions/setup-java@v4
         with:
